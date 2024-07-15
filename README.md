@@ -1,3 +1,3 @@
 # IntaSend Dynamic Pay Button
 
-This project allows one to have an amount input form that updates data-amount attribute in IntaSend Pay Button element. 
+This project demonstrates how to dynamically update the data-amount attribute in IntaSend Pay Button element using a form and event listeners in JavaScript. 
