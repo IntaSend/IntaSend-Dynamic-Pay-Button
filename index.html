@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>IntaSend Payment Button Test</title>
     <!-- Add IntaSend SDK script -->
-    <script src="https://unpkg.com/intasend-inlinejs-sdk"></script>  
+    <script src="https://unpkg.com/intasend-inlinejs-sdk@4.0.7/build/intasend-inline.js"></script>  
 </head>
 <body>
     <h1>Test IntaSend Payment Button</h1>
@@ -43,7 +43,11 @@
             var intasendButton = document.getElementById('intasend-button');
             /* sets attribute of data-amount of button to a new value */
             intasendButton.setAttribute('data-amount', amount); 
-        });
+        }); 
+
+        document.getElementById('intasend-button').addEventListener('click', function(){
+            console.log('btn clicked')
+        })
 
     </script>
 
